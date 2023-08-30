@@ -6,4 +6,4 @@ before_install:
   - docker build -t frontend/docker-exercise -f Dockerfile.dev .
 
 script :
-  - docker run frontend/docker-exercise npm run test -- --coverage --silent
+  - docker run frontend/docker-exercise npm run test -- --coverage
